@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8"> 
+<meta name="author" content="Valerija Karlovic">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zadaca</title>
+
+<style>
+body {
+	margin-right: 10%;
+	}
+
+header, nav, main, footer {
+	margin: 10px;
+	border-radius: 10px;
+	border: 6px solid #1f3a52; 
+	background-color: #a8c6e0;
+	}
+
+header {
+	position: absolute;
+	left: 10%;
+	top: 3%;
+	width: 80%;
+	height: 20%;
+	z-index: 1;
+	display: flex; 
+	}
+
+header img {
+	width: 30%;
+	height: 100%;
+	}
+
+header h1 {
+	margin-top: 5%;
+    margin-left: 5%; 
+    color: #00457C;
+    position: relative; 
+    max-width: 70%; 
+    width: auto;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	}
+	
+nav {
+	position: absolute;
+	left: 10%;
+	top: 25%;
+	width: 20%;
+	height: 72%;
+	z-index: 2;
+	}
+
+table {
+	width: 70%; 
+	margin-top: 5%; 
+	margin-left: 10%;
+	height: auto;
+	border-collapse: separate; 
+	border-spacing: 0 10px;
+	}
+  
+td {
+	height: 35px;
+	border-radius: 10px;
+	background-color: #dfecf7;
+	border: 1px solid black; 
+	text-align: center; 
+	padding: 5px; 
+	}
+
+a {
+	text-decoration: none; 
+	color: #00457C;
+	font-weight: bold;
+	}
+
+main {
+	position: absolute;
+	left: 31%;
+	top: 25%;
+	width: 59%;
+	height: 50%;
+	z-index: 3;
+	margin: 10px;
+	display: flex; 
+	}
+
+h4 {
+	margin-left: 5%;
+	margin-top:5%;
+	width: 50%;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	color: #00457C;
+	}
+
+#tekst {
+	margin-left: 5%; 
+	margin-top: 5%;
+	}
+
+footer {
+	position: absolute;
+	left: 31%;
+	top: 77%;
+	width: 59%;
+	height: 20%;
+	z-index: 4;
+	}
+	
+footer h3 {
+    max-width: 90%;
+	}
+	
+footer p, h3 {
+	color: #00457C;
+	width: 100%;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: auto; 
+    z-index: 4;
+	}
+	
+	footer i {
+	color: black;
+	width: 100%;
+	max-width: 100%;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	max-width: 100%;
+	margin-right: 2%;
+	}
+	
+@media screen and (max-width: 768px) {
+  header, nav, main, footer {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+		
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    width: calc(100% - 20px);
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="Paypal-logo.png" alt="paypal_logo">
+<h1>Jednostavniji, sigurniji način plaćanja i primanja</h1>
+
+</header>
+
+<nav>
+<table>
+  <tr>
+    <td><a href="https://www.paypal.com/ba/home">PayPal</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.paypal.com/ba/webapps/mpp/account-selection">Prijavite se na PayPal</a>
+</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.paypal.com/ba/smarthelp/contact-us">Kontakt</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.example.com">Vježbe</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.example.com">Zadaće</a></td>
+  </tr>
+  <tr>
+    <td><a href="mailto:karlovicvalerija@gmail.com">e-mail adresa autora</a>
+</td>
+  </tr>
+</table>
+</nav>
+
+<main style="overflow: auto;">
+
+<h4>PayPal je nastao u ožujku 2000. godine 
+spajanjem mrežnih mjesta Confinity
+i X.com. Confinity su osnovali Max Levchin, 
+Peter Thiel i Luke Nosek u prosincu 1998. 
+Inicijalno, tvrtka se bavila uplatama 
+i kriptografijom za Palm Pilot ručna računala.
+ X.com je osnovao Elon Musk u ožujku 1999.,
+ a zamislio ju je kao financijsku uslužnu 
+ tvrtku orijentiranu internetu. Obje su 
+ tvrtke objavile svoje internet stranice
+ 1999., imale su urede u University Avenue, Palo 
+ Alto. Web stranice tvrtke Confinity 
+ stavljale su u fokus usklađivanje i
+ kompatibilnost poslanih Palm Pilot 
+ uplata s mogućnošću slanja novaca 
+ putem e-maila. X.com je od samih 
+ početaka na stanicama nudio mogućnost
+ slanja novaca putem e-maila.</h4>
+ 
+ <h4 id="tekst">PayPal je internetski orijentirana tvrtka
+ koja omogućuje obavljanje uplata i novčanih prijenosa internetom.
+ Nastala je kao alternativa tradicionalnim „papirnim“ metodama
+ kao što su čekovi i novčani ugovori. 
+PayPal je vrsta usluge „klijent-klijentu (peer-to-peer, P2P)“. 
+Taj način plaćanja omogućava bilo kome tko ima adresu e-pošte
+ slanje novac nekom drugom tko također ima
+ adresu e-pošte. PayPal korisnički račun se najlakše
+ uspoređuje s tekućim ili žiro računom 
+ bilo koje druge banke. Najčešće se uz 
+ takav račun veže određena debitna ili 
+ kreditna kartica (VISA, MasterCard, 
+ Visa electron, American Express). 
+ Sam PayPal razlikuje tri 
+ vrste računa: osobni, premier i poslovni račun.</h4>
+</main>
+
+<footer style="overflow: hidden">
+<h3>Sigurnije i zaštićenije</h3>
+<p>Kupujte bezbrižno. 
+Vaše potpune financijske podatke ne dijeli s prodavačima.
+ A PayPal Buyer Protection pokriva vaše kupnje koje ispunjavaju 
+ uvjete ako se ne pojave ili ne odgovaraju opisu.<br><br><i> Autor: Valerija Karlovic </i></p>
+</footer>
+
+</body>
+</html> 
